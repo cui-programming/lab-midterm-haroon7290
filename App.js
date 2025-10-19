@@ -2,6 +2,7 @@ import React from 'react';
 import { View, ScrollView } from 'react-native';
 import { styles } from './src/styles/styles';
 import AboutMe from './src/components/custom/AboutMe';
+import TeacherMessage from './src/components/custom/TeacherMessage';
 import TasbihList from './src/components/custom/TasbihList';
 // import TeacherMessage from './src/components/custom/TeacherMessage'; // Students create this
 import SearchAndAdd from './src/components/custom/SearchAndAdd';

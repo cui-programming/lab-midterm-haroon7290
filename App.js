@@ -11,7 +11,7 @@ export default function App() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <AboutMe name={STUDENT_NAME} regNo={REG_NO} />
-      {/* TODO: after creating the custom/TeacherMessage component, render it here */}
+      <TeacherMessage /> 
       <TasbihList />
       <SearchAndAdd />
     </ScrollView>
